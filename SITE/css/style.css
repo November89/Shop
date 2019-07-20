@@ -1,0 +1,251 @@
+body
+{
+	font-family: Georgia;
+	font-size: 12px;
+	margin: 0;
+    background: url(../img/bgpicture.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+	
+.butt
+{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+
+.butt:hover 
+{ 
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00; 
+}
+
+.butt:active
+{
+  background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+textarea
+{
+	width: 100%;
+	height: 300px;
+}
+
+#source
+{
+    text-align: left;
+}
+
+#list
+{
+    padding: 20px;
+    line-height: 1.2;
+    font-size: 25px;
+    
+}
+
+#header
+{
+	padding: 10px;
+    background-color: orange;
+}
+
+#menu
+{
+    text-align: right;
+	padding: 10px;
+}
+
+#content
+{
+    color: white;
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	padding: 10px;
+    flex: 1 0 auto;
+}
+
+#price {
+    text-align: left;
+}
+
+.order__table {
+   background: yelow; 
+}
+
+main {
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+hr {
+    width: 100%;
+}
+
+
+.product__header {
+    font-size: 28px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    width: 160px;
+	height: 160px;
+}
+
+.img__full {
+    align-content: left;
+	width: 100%;
+}
+
+.product__image {
+    float: left;
+    margin-right: 150px;
+}
+
+.product {
+    width: 150px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+    background-color: #ffdb52;
+	-webkit-box-shadow: 2px -2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px -2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px -2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.product__full {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.product:hover {
+	-webkit-box-shadow: 8px -7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    8px -7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         8px -7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.product__title {
+    color: white;
+    font-family: Georgia;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+}
+
+#footer
+{
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+	padding: 10px;
+	background-color: orange;
+}
+
+#buying_form {
+  display: none;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+
+#buy {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+
+.category-wrap {
+  float:left;
+  padding: 15px;
+  background: white;
+  width: 200px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.category-wrap h3 {
+  font-size: 16px;
+  color: rgba(0,0,0,.6);
+  margin: 0 0 10px;
+  padding: 0 5px;
+  position: relative;
+}
+
+.category-wrap h3:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #80C8A0;
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+  box-shadow: -8px -8px #80C8A0, 0 -8px #80C8A0, -8px 0 #80C8A0;
+}
+
+.category-wrap ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  border-top: 1px solid rgba(0,0,0,.3);
+}
+
+.category-wrap li 
+{
+  margin: 12px 0 0 0px;
+}
+
+.category-wrap a {
+  color: white;
+  text-decoration: none;
+  display: block;  
+  font-size: 13px;
+  padding: 5px;
+  position: relative;
+  transition: .3s linear;
+}
+
+.category-wrap a:after {
+  font-family: FontAwesome;
+  position: absolute;
+  right: 5px;
+  transition: .2s linear;
+}
+
+.category-wrap a:hover {
+  background: yellow;
+}
